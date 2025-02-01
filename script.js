@@ -903,22 +903,25 @@ function showRecipe(cake) {
     modal.classList.remove('hidden');
 }
 
+function closeModal() {
+    document.getElementById('recipeModal').classList.add('hidden');
+    document.body.classList.remove('modal-open');
+}
+
 function createCakeCard(cake) {
     return `
         <div class="bg-white rounded-lg shadow-sm overflow-hidden cursor-pointer hover:shadow-md transition-shadow"
              onclick="showRecipe(cakes[${cake.id - 1}])">
-            <img src="${cake.image}" alt="${cake.name}" class="w-full h-48 object-cover">
+            <div class="square-image-container">
+                <img src="${cake.image}" alt="${cake.name}" class="square-image">
+            </div>
             <div class="p-4">
                 <h3 class="text-xl font-semibold text-gray-800">${cake.name}</h3>
                 <p class="text-gray-600 mt-2">${cake.description}</p>
+                <p class="text-pink-500 font-bold mt-2">${cake.price}</p>
             </div>
         </div>
     `;
-}
-
-function closeModal() {
-    document.getElementById('recipeModal').classList.add('hidden');
-    document.body.classList.remove('modal-open');
 }
 
 function displayCakes(cakesToShow) {
