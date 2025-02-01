@@ -11,7 +11,7 @@
     <!-- Header same as before -->
     <header class="bg-white shadow-sm py-4">
         <div class="max-w-6xl mx-auto px-4 flex justify-between items-center">
-            <h1 class="text-2xl font-bold text-pink-500">Khanom Wan</h1>
+            <h1 class="text-2xl font-bold text-pink-500 ml-8 mt-4">Khanom Wan</h1> <!-- Adjusted margin-left and margin-top -->
             <div class="relative">
                 <input type="text" id="search" 
                        class="w-64 px-4 py-2 rounded-full border border-gray-300 focus:outline-none focus:border-pink-500"
@@ -22,13 +22,13 @@
 
     <!-- Modal with improved mobile layout -->
     <div id="recipeModal" class="hidden fixed inset-0 bg-black bg-opacity-30 z-50 flex items-center justify-center">
-        <div class="modal-content bg-white w-full max-w-2xl mx-auto sm:rounded-lg shadow-xl">
+        <div class="modal-content bg-white w-full max-w-md sm:max-w-lg md:max-w-xl mx-auto sm:rounded-lg shadow-xl p-4 sm:p-6 md:p-8 max-h-screen overflow-y-auto"> <!-- Adjusted width, padding, height, and overflow -->
             <div class="modal-scroll">
                 <div id="modalContent">
                     <!-- Modal content will be inserted here -->
                 </div>
             </div>
-            <div class="modal-footer flex justify-center">
+            <div class="modal-footer flex justify-center mt-4"> <!-- Added margin-top -->
                 <button onclick="closeModal()" 
                         class="w-auto max-w-xs sm:max-w-none sm:w-auto px-4 py-2 bg-pink-500 text-white rounded-md hover:bg-pink-600 transition-colors">
                     Close
@@ -44,6 +44,17 @@
         </div>
     </main>
 
+<script>
+    function openModal() {
+        document.getElementById('recipeModal').classList.remove('hidden');
+        document.body.classList.add('overflow-hidden');
+    }
+
+    function closeModal() {
+        document.getElementById('recipeModal').classList.add('hidden');
+        document.body.classList.remove('overflow-hidden');
+    }
+</script>
 <script src="script.js"></script>
 </body>
 </html>
