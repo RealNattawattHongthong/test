@@ -3,7 +3,7 @@ const cakes = [
         id: 1,
         name: "Classic Chocolate Cake",
         description: "Rich, moist chocolate cake with chocolate ganache",
-        image: "/img/cake_img1.jpg",
+        image: "/img/cake_img1.webp",
         recipe: {
             ingredients: [
                 "2 cups all-purpose flour",
@@ -32,7 +32,7 @@ const cakes = [
         id: 2,
         name: "Vanilla Bean Delight",
         description: "Light and fluffy vanilla cake with buttercream frosting",
-        image: "/img/cake_img2.jpg",
+        image: "/img/cake_img2.webp",
         recipe: {
             ingredients: [
                 "3 cups cake flour",
@@ -58,7 +58,7 @@ const cakes = [
         id: 3,
         name: "Red Velvet Dream",
         description: "Smooth red velvet cake with cream cheese frosting",
-        image: "/img/cake_img3.jpg",
+        image: "/img/cake_img3.webp",
         recipe: {
             ingredients: [
                 "2½ cups flour",
@@ -87,7 +87,7 @@ const cakes = [
         id: 4,
         name: "Red Velvet Dream",
         description: "Smooth red velvet cake with cream cheese frosting",
-        image: "/img/cake_img4.jpg",
+        image: "/img/cake_img4.webp",
         recipe: {
             ingredients: [
                 "2½ cups flour",
@@ -116,7 +116,7 @@ const cakes = [
         id: 5,
         name: "Red Velvet Dream",
         description: "Smooth red velvet cake with cream cheese frosting",
-        image: "/img/cake_img5.jpg",
+        image: "/img/cake_img5.webp",
         recipe: {
             ingredients: [
                 "2½ cups flour",
@@ -145,7 +145,7 @@ const cakes = [
         id: 6,
         name: "Red Velvet Dream",
         description: "Smooth red velvet cake with cream cheese frosting",
-        image: "/img/cake_img6.jpg",
+        image: "/img/cake_img6.webp",
         recipe: {
             ingredients: [
                 "2½ cups flour",
@@ -174,7 +174,7 @@ const cakes = [
         id: 7,
         name: "Red Velvet Dream",
         description: "Smooth red velvet cake with cream cheese frosting",
-        image: "/img/cake_img7.jpg",
+        image: "/img/cake_img7.webp",
         recipe: {
             ingredients: [
                 "2½ cups flour",
@@ -203,7 +203,7 @@ const cakes = [
         id: 8,
         name: "Red Velvet Dream",
         description: "Smooth red velvet cake with cream cheese frosting",
-        image: "/img/cake_img8.jpg",
+        image: "/img/cake_img8.webp",
         recipe: {
             ingredients: [
                 "2½ cups flour",
@@ -232,7 +232,7 @@ const cakes = [
         id: 9,
         name: "Red Velvet Dream",
         description: "Smooth red velvet cake with cream cheese frosting",
-        image: "/img/cake_img9.jpg",
+        image: "/img/cake_img9.webp",
         recipe: {
             ingredients: [
                 "2½ cups flour",
@@ -261,7 +261,7 @@ const cakes = [
         id: 10,
         name: "Red Velvet Dream",
         description: "Smooth red velvet cake with cream cheese frosting",
-        image: "/img/cake_img10.jpg",
+        image: "/img/cake_img10.webp",
         recipe: {
             ingredients: [
                 "2½ cups flour",
@@ -290,7 +290,7 @@ const cakes = [
         id: 11,
         name: "Red Velvet Dream",
         description: "Smooth red velvet cake with cream cheese frosting",
-        image: "/img/cake_img11.jpg",
+        image: "/img/cake_img11.webp",
         recipe: {
             ingredients: [
                 "2½ cups flour",
@@ -319,7 +319,7 @@ const cakes = [
         id: 12,
         name: "Red Velvet Dream",
         description: "Smooth red velvet cake with cream cheese frosting",
-        image: "/img/cake_img12.jpg",
+        image: "/img/cake_img12.webp",
         recipe: {
             ingredients: [
                 "2½ cups flour",
@@ -348,7 +348,7 @@ const cakes = [
         id: 13,
         name: "Red Velvet Dream",
         description: "Smooth red velvet cake with cream cheese frosting",
-        image: "/img/cake_img13.jpg",
+        image: "/img/cake_img13.webp",
         recipe: {
             ingredients: [
                 "2½ cups flour",
@@ -377,7 +377,7 @@ const cakes = [
         id: 14,
         name: "Red Velvet Dream",
         description: "Smooth red velvet cake with cream cheese frosting",
-        image: "/img/cake_img14.jpg",
+        image: "/img/cake_img14.webp",
         recipe: {
             ingredients: [
                 "2½ cups flour",
@@ -406,7 +406,7 @@ const cakes = [
         id: 15,
         name: "Red Velvet Dream",
         description: "Smooth red velvet cake with cream cheese frosting",
-        image: "/img/cake_img15.jpg",
+        image: "/img/cake_img15.webp",
         recipe: {
             ingredients: [
                 "2½ cups flour",
@@ -435,7 +435,7 @@ const cakes = [
         id: 16,
         name: "Red Velvet Dream",
         description: "Smooth red velvet cake with cream cheese frosting",
-        image: "/img/cake_img16.jpg",
+        image: "/img/cake_img16.webp",
         recipe: {
             ingredients: [
                 "2½ cups flour",
@@ -464,7 +464,7 @@ const cakes = [
         id: 17,
         name: "Red Velvet Dream",
         description: "Smooth red velvet cake with cream cheese frosting",
-        image: "/img/cake_img17.jpg",
+        image: "/img/cake_img17.webp",
         recipe: {
             ingredients: [
                 "2½ cups flour",
@@ -493,7 +493,7 @@ const cakes = [
         id: 18,
         name: "Red Velvet Dream",
         description: "Smooth red velvet cake with cream cheese frosting",
-        image: "/img/cake_img18.jpg",
+        image: "/img/cake_img18.webp",
         recipe: {
             ingredients: [
                 "2½ cups flour",
@@ -522,7 +522,7 @@ const cakes = [
         id: 19,
         name: "Red Velvet Dream",
         description: "Smooth red velvet cake with cream cheese frosting",
-        image: "/img/cake_img19.jpg",
+        image: "/img/cake_img19.webp",
         recipe: {
             ingredients: [
                 "2½ cups flour",
@@ -551,7 +551,7 @@ const cakes = [
         id: 20,
         name: "Red Velvet Dream",
         description: "Smooth red velvet cake with cream cheese frosting",
-        image: "/img/cake_img20.jpg",
+        image: "/img/cake_img20.webp",
         recipe: {
             ingredients: [
                 "2½ cups flour",
@@ -580,7 +580,7 @@ const cakes = [
         id: 21,
         name: "Red Velvet Dream",
         description: "Smooth red velvet cake with cream cheese frosting",
-        image: "/img/cake_img21.jpg",
+        image: "/img/cake_img21.webp",
         recipe: {
             ingredients: [
                 "2½ cups flour",
@@ -609,7 +609,7 @@ const cakes = [
         id: 22,
         name: "Red Velvet Dream",
         description: "Smooth red velvet cake with cream cheese frosting",
-        image: "/img/cake_img22.jpg",
+        image: "/img/cake_img22.webp",
         recipe: {
             ingredients: [
                 "2½ cups flour",
@@ -638,7 +638,7 @@ const cakes = [
         id: 23,
         name: "Red Velvet Dream",
         description: "Smooth red velvet cake with cream cheese frosting",
-        image: "/img/cake_img23.jpg",
+        image: "/img/cake_img23.webp",
         recipe: {
             ingredients: [
                 "2½ cups flour",
@@ -667,7 +667,7 @@ const cakes = [
         id: 24,
         name: "Red Velvet Dream",
         description: "Smooth red velvet cake with cream cheese frosting",
-        image: "/img/cake_img24.jpg",
+        image: "/img/cake_img24.webp",
         recipe: {
             ingredients: [
                 "2½ cups flour",
@@ -696,7 +696,7 @@ const cakes = [
         id: 25,
         name: "Red Velvet Dream",
         description: "Smooth red velvet cake with cream cheese frosting",
-        image: "/img/cake_img25.jpg",
+        image: "/img/cake_img25.webp",
         recipe: {
             ingredients: [
                 "2½ cups flour",
@@ -725,7 +725,7 @@ const cakes = [
         id: 26,
         name: "Red Velvet Dream",
         description: "Smooth red velvet cake with cream cheese frosting",
-        image: "/img/cake_img26.jpg",
+        image: "/img/cake_img26.webp",
         recipe: {
             ingredients: [
                 "2½ cups flour",
@@ -754,7 +754,7 @@ const cakes = [
         id: 27,
         name: "Red Velvet Dream",
         description: "Smooth red velvet cake with cream cheese frosting",
-        image: "/img/cake_img27.jpg",
+        image: "/img/cake_img27.webp",
         recipe: {
             ingredients: [
                 "2½ cups flour",
@@ -783,7 +783,7 @@ const cakes = [
         id: 28,
         name: "Red Velvet Dream",
         description: "Smooth red velvet cake with cream cheese frosting",
-        image: "/img/cake_img28.jpg",
+        image: "/img/cake_img28.webp",
         recipe: {
             ingredients: [
                 "2½ cups flour",
@@ -812,7 +812,7 @@ const cakes = [
         id: 29,
         name: "Red Velvet Dream",
         description: "Smooth red velvet cake with cream cheese frosting",
-        image: "/img/cake_img29.jpg",
+        image: "/img/cake_img29.webp",
         recipe: {
             ingredients: [
                 "2½ cups flour",
@@ -841,7 +841,7 @@ const cakes = [
         id: 30,
         name: "Red Velvet Dream",
         description: "Smooth red velvet cake with cream cheese frosting",
-        image: "/img/cake_img30.jpg",
+        image: "/img/cake_img30.webp",
         recipe: {
             ingredients: [
                 "2½ cups flour",

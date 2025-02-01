@@ -12,10 +12,13 @@
     <header class="bg-white shadow-sm py-4">
         <div class="max-w-6xl mx-auto px-4 flex justify-between items-center">
             <h1 class="text-2xl font-bold text-pink-500 ml-8 mt-4">Khanom Wan</h1> <!-- Adjusted margin-left and margin-top -->
-            <div class="relative">
+            <div class="relative flex items-center mt-4 sm:mt-0"> <!-- Added margin-top for mobile -->
                 <input type="text" id="search" 
                        class="w-64 px-4 py-2 rounded-full border border-gray-300 focus:outline-none focus:border-pink-500"
                        placeholder="Search...">
+                <svg class="w-6 h-6 text-gray-500 ml-2 sm:hidden" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
+                </svg>
             </div>
         </div>
     </header>
