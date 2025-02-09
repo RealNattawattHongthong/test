@@ -23,7 +23,7 @@ body.modal-open {
 
 /* Modal styles */
 .modal-content {
-    max-height: 90vh;
+    max-height: 85vh;
     margin: 2vh auto;
     display: flex;
     flex-direction: column;
