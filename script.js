@@ -1,7 +1,7 @@
 const cakes = [
     {
         id: 1,
-        name: "Classic Chocolate Cake",
+        name: "Dulce de Leche",
         description: "Rich, moist chocolate cake with chocolate ganache",
         image: "/img/cake_img1.webp",
         recipe: {
@@ -30,7 +30,7 @@ const cakes = [
     },
     {
         id: 2,
-        name: "Vanilla Bean Delight",
+        name: "Pastel de Nata",
         description: "Light and fluffy vanilla cake with buttercream frosting",
         image: "/img/cake_img2.webp",
         recipe: {
@@ -56,7 +56,7 @@ const cakes = [
     },
     {
         id: 3,
-        name: "Red Velvet Dream",
+        name: "Banoffee Pie",
         description: "Smooth red velvet cake with cream cheese frosting",
         image: "/img/cake_img3.webp",
         recipe: {
@@ -85,7 +85,7 @@ const cakes = [
     },
     {
         id: 4,
-        name: "Red Velvet Dream",
+        name: "Choco Lava Cake",
         description: "Smooth red velvet cake with cream cheese frosting",
         image: "/img/cake_img4.webp",
         recipe: {
@@ -114,7 +114,7 @@ const cakes = [
     },
     {
         id: 5,
-        name: "Red Velvet Dream",
+        name: "Alfajores",
         description: "Smooth red velvet cake with cream cheese frosting",
         image: "/img/cake_img5.webp",
         recipe: {
@@ -143,7 +143,7 @@ const cakes = [
     },
     {
         id: 6,
-        name: "Red Velvet Dream",
+        name: "Apple Pie",
         description: "Smooth red velvet cake with cream cheese frosting",
         image: "/img/cake_img6.webp",
         recipe: {
@@ -172,7 +172,7 @@ const cakes = [
     },
     {
         id: 7,
-        name: "Red Velvet Dream",
+        name: "Rasgulla",
         description: "Smooth red velvet cake with cream cheese frosting",
         image: "/img/cake_img7.webp",
         recipe: {
@@ -201,7 +201,7 @@ const cakes = [
     },
     {
         id: 8,
-        name: "Red Velvet Dream",
+        name: "Bakso Es Krim",
         description: "Smooth red velvet cake with cream cheese frosting",
         image: "/img/cake_img8.webp",
         recipe: {
@@ -230,7 +230,7 @@ const cakes = [
     },
     {
         id: 9,
-        name: "Red Velvet Dream",
+        name: "Kaiserschmarrn",
         description: "Smooth red velvet cake with cream cheese frosting",
         image: "/img/cake_img9.webp",
         recipe: {
@@ -259,7 +259,7 @@ const cakes = [
     },
     {
         id: 10,
-        name: "Red Velvet Dream",
+        name: "Cannoli",
         description: "Smooth red velvet cake with cream cheese frosting",
         image: "/img/cake_img10.webp",
         recipe: {
@@ -288,7 +288,7 @@ const cakes = [
     },
     {
         id: 11,
-        name: "Red Velvet Dream",
+        name: "Flan",
         description: "Smooth red velvet cake with cream cheese frosting",
         image: "/img/cake_img11.webp",
         recipe: {
@@ -317,7 +317,7 @@ const cakes = [
     },
     {
         id: 12,
-        name: "Red Velvet Dream",
+        name: "Panacotta",
         description: "Smooth red velvet cake with cream cheese frosting",
         image: "/img/cake_img12.webp",
         recipe: {
@@ -346,7 +346,7 @@ const cakes = [
     },
     {
         id: 13,
-        name: "Red Velvet Dream",
+        name: "Brownie",
         description: "Smooth red velvet cake with cream cheese frosting",
         image: "/img/cake_img13.webp",
         recipe: {
@@ -375,7 +375,7 @@ const cakes = [
     },
     {
         id: 14,
-        name: "Red Velvet Dream",
+        name: "Halo Halo",
         description: "Smooth red velvet cake with cream cheese frosting",
         image: "/img/cake_img14.webp",
         recipe: {
@@ -404,7 +404,7 @@ const cakes = [
     },
     {
         id: 15,
-        name: "Red Velvet Dream",
+        name: "Tarte Tatin",
         description: "Smooth red velvet cake with cream cheese frosting",
         image: "/img/cake_img15.webp",
         recipe: {
@@ -433,7 +433,7 @@ const cakes = [
     },
     {
         id: 16,
-        name: "Red Velvet Dream",
+        name: "Sacher Torte",
         description: "Smooth red velvet cake with cream cheese frosting",
         image: "/img/cake_img16.webp",
         recipe: {
@@ -462,7 +462,7 @@ const cakes = [
     },
     {
         id: 17,
-        name: "Red Velvet Dream",
+        name: "Cendol",
         description: "Smooth red velvet cake with cream cheese frosting",
         image: "/img/cake_img17.webp",
         recipe: {
@@ -491,7 +491,7 @@ const cakes = [
     },
     {
         id: 18,
-        name: "Red Velvet Dream",
+        name: "Knafeh",
         description: "Smooth red velvet cake with cream cheese frosting",
         image: "/img/cake_img18.webp",
         recipe: {
@@ -520,7 +520,7 @@ const cakes = [
     },
     {
         id: 19,
-        name: "Red Velvet Dream",
+        name: "Lamingtons",
         description: "Smooth red velvet cake with cream cheese frosting",
         image: "/img/cake_img19.webp",
         recipe: {
@@ -549,8 +549,8 @@ const cakes = [
     },
     {
         id: 20,
-        name: "Red Velvet Dream",
-        description: "Smooth red velvet cake with cream cheese frosting",
+        name: "Tiramisu",
+        description: "Rich, moist chocolate cake with chocolate ganache",
         image: "/img/cake_img20.webp",
         recipe: {
             ingredients: [
@@ -578,7 +578,7 @@ const cakes = [
     },
     {
         id: 21,
-        name: "Red Velvet Dream",
+        name: "Baklava",
         description: "Smooth red velvet cake with cream cheese frosting",
         image: "/img/cake_img21.webp",
         recipe: {
@@ -607,7 +607,7 @@ const cakes = [
     },
     {
         id: 22,
-        name: "Red Velvet Dream",
+        name: "Mochi",
         description: "Smooth red velvet cake with cream cheese frosting",
         image: "/img/cake_img22.webp",
         recipe: {
@@ -636,7 +636,7 @@ const cakes = [
     },
     {
         id: 23,
-        name: "Red Velvet Dream",
+        name: "Créme Brûlée",
         description: "Smooth red velvet cake with cream cheese frosting",
         image: "/img/cake_img23.webp",
         recipe: {
@@ -665,7 +665,7 @@ const cakes = [
     },
     {
         id: 24,
-        name: "Red Velvet Dream",
+        name: "Churros",
         description: "Smooth red velvet cake with cream cheese frosting",
         image: "/img/cake_img24.webp",
         recipe: {
@@ -694,7 +694,7 @@ const cakes = [
     },
     {
         id: 25,
-        name: "Red Velvet Dream",
+        name: "Pavlova",
         description: "Smooth red velvet cake with cream cheese frosting",
         image: "/img/cake_img25.webp",
         recipe: {
@@ -723,7 +723,7 @@ const cakes = [
     },
     {
         id: 26,
-        name: "Red Velvet Dream",
+        name: "Cheesecake",
         description: "Smooth red velvet cake with cream cheese frosting",
         image: "/img/cake_img26.webp",
         recipe: {
@@ -752,7 +752,7 @@ const cakes = [
     },
     {
         id: 27,
-        name: "Red Velvet Dream",
+        name: "Gulab Jamun",
         description: "Smooth red velvet cake with cream cheese frosting",
         image: "/img/cake_img27.webp",
         recipe: {
@@ -781,7 +781,7 @@ const cakes = [
     },
     {
         id: 28,
-        name: "Red Velvet Dream",
+        name: "Black Forest",
         description: "Smooth red velvet cake with cream cheese frosting",
         image: "/img/cake_img28.webp",
         recipe: {
@@ -810,7 +810,7 @@ const cakes = [
     },
     {
         id: 29,
-        name: "Red Velvet Dream",
+        name: "Tres Leeches Cake",
         description: "Smooth red velvet cake with cream cheese frosting",
         image: "/img/cake_img29.webp",
         recipe: {
