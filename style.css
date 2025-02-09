@@ -100,6 +100,8 @@ body.modal-open {
     opacity: 0;
     transition: opacity 200ms ease-in;
 }
-#cakeGrid > div:first-child {
+#cakeGrid > div:first-child,
+#cakeGrid > div:nth-child(2),
+#cakeGrid > div:nth-child(3) {
     margin-top: 4rem; /* Adjust the value as needed */
 }
