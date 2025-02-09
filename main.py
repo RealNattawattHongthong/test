@@ -17,6 +17,6 @@ def convert_jpg_to_webp(input_folder, output_folder, quality=80):
             print(f"Converted: {filename} -> {webp_filename}")
 
 # Example usage
-input_folder = "/Users/nattawatthongthong/Documents/cake-website/test/img"  # Replace with actual folder path
+input_folder = "/Users/nattawatthongthong/Documents/cake-website/test/img/cake_img30.jpg"  # Replace with actual folder path
 output_folder = "/Users/nattawatthongthong/Documents/cake-website/test/img_webp"  # Replace with actual folder path
 convert_jpg_to_webp(input_folder, output_folder)
