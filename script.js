@@ -974,11 +974,8 @@ function displayCakes(cakesToShow) {
     const cakeGrid = document.getElementById('cakeGrid');
     cakeGrid.innerHTML = cakesToShow.map(cake => createCakeCard(cake)).join('');
 }
-
-// Initial display
 displayCakes(cakes);
 
-// Search functionality
 document.getElementById('search').addEventListener('input', (e) => {
     const searchTerm = e.target.value.toLowerCase();
     const filteredCakes = cakes.filter(cake => 
@@ -988,7 +985,6 @@ document.getElementById('search').addEventListener('input', (e) => {
     displayCakes(filteredCakes);
 });
 
-// Close modal when clicking outside
 window.onclick = function(event) {
     const modal = document.getElementById('recipeModal');
     if (event.target === modal) {

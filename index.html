@@ -7,11 +7,9 @@
     <meta name="description" content="A collection of dessert recipes">
 	<meta name="keywords" content="dessert, recipe, menu, food, sweet, อาหาร, ขนมหวาน, สูตรขนมหวาน">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="style.css"> <!-- Corrected syntax -->
+    <link rel="stylesheet" href="style.css"> 
 </head>
 <body class="bg-gray-100">
-    
-    <!-- Header -->
     <header class="bg-white shadow-sm py-4 fixed top-0 w-full z-40">
         <div class="max-w-6xl mx-auto px-4">
             <div class="flex justify-between items-center">
@@ -30,12 +28,11 @@
         </div>
     </header>
 
-    <!-- Modal -->
     <div id="recipeModal" class="hidden fixed inset-0 bg-black bg-opacity-30 z-50 flex items-center justify-center">
         <div class="modal-content bg-white w-full max-w-md sm:max-w-lg md:max-w-xl mx-auto sm:rounded-lg shadow-xl p-4 sm:p-6 md:p-8 max-h-screen overflow-y-auto">
             <div class="modal-scroll">
                 <div id="modalContent">
-                    <!-- Modal content will be inserted here -->
+
                 </div>
             </div>
             <div class="modal-footer flex justify-center mt-4">
@@ -46,15 +43,11 @@
             </div>
         </div>
     </div>
-
-    <!-- Main Content -->
     <main class="max-w-6xl mx-auto px-4 py-8">
         <div id="cakeGrid" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:ml-8 gap-8">
-            <!-- Cards will be dynamically inserted here -->
+
         </div>
     </main>
-
-    <!-- JavaScript -->
     <script>
         function openModal() {
             document.getElementById('recipeModal').classList.remove('hidden');
