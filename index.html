@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dessert Recipe Menu</title>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
-    <stylesheet href="style.css">
+    <link href="styles.css" rel="stylesheet">
 </head>
 <body class="bg-gray-100">
     <header class="bg-white shadow-sm py-4 fixed top-0 w-full z-40">
@@ -25,18 +25,6 @@
             </div>
         </div>
     </header>
-
-    <main class="max-w-6xl mx-auto px-4 py-8 mt-20">
-        <div id="cakeGrid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            <!-- Sample Card -->
-            <div class="bg-white rounded-lg shadow-md overflow-hidden cursor-pointer" onclick="openModal('recipe1')">
-                <div class="p-4">
-                    <h3 class="text-lg font-semibold">Dulce de Leche Cake</h3>
-                    <p class="text-gray-600">Rich caramel-flavored cake with dulce de leche frosting</p>
-                </div>
-            </div>
-        </div>
-    </main>
 
     <div id="recipeModal" class="hidden fixed inset-0 bg-black bg-opacity-50 z-50">
         <div class="min-h-screen px-4 text-center">
@@ -60,24 +48,7 @@
             </div>
         </div>
     </div>
-<script>
-     function openModal(recipeId) {
-            document.getElementById('recipeModal').classList.remove('hidden');
-            document.body.classList.add('modal-open');
-        }
 
-        function closeModal() {
-            document.getElementById('recipeModal').classList.add('hidden');
-            document.body.classList.remove('modal-open');
-        }
-
-        // Close modal when clicking escape key
-        document.addEventListener('keydown', function(event) {
-            if (event.key === 'Escape') {
-                closeModal();
-            }
-        });
-</script>
-<script src="script.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
